@@ -1,8 +1,8 @@
 # MAIS 202 Fall 2019 - Application Coding Challenge
 
-[Application](tiny.cc/mais202f2019)
+[Application](https://docs.google.com/forms/d/e/1FAIpQLSffJrPvMK_wT8g6ALzwEr4jQAn4Sm6a-ZAY8oHmD6_5XFKmCA/viewform)
 
-[Course syllabus](tiny.cc/mais202f2019-syllabus)
+[Course syllabus](https://drive.google.com/file/d/1fs2lhfxIVgnEGWHn_HLEjpvSwbcc95Er/view)
 
 Loans are an extremely powerful financial instrument; they have the potential to create opportunities and foster growth.
 To learn more about loans and what influences them, we have provided you with two csv's: *loan_data.csv* and *home_ownership_data.csv*.
