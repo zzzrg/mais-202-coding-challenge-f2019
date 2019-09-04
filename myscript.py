@@ -3,12 +3,12 @@ from collections import Counter
 import matplotlib.pyplot as plt 
 
 # open files
-f = open("home_ownership_data.csv", 'r')
-ownership = f.read()
-f.close()
-f = open("loan_data.csv", 'r')
-loan = f.read()
-f.close()
+file = open("home_ownership_data.csv", 'r')
+ownership = file.read()
+file.close()
+file = open("loan_data.csv", 'r')
+loan = file.read()
+file.close()
 
 # parsing
 rows = ownership.split('\n')[1:]
@@ -29,10 +29,6 @@ for owner in ownerlist:
 
 for key in avg:
     avg[key] /= count[key]
-
-print(avg)
-print(avg.values())
-print(count)
 
 plt.bar([1, 2, 3], avg.values())
 plt.title('Average loan amounts for home ownership')
