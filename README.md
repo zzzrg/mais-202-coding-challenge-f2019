@@ -1,3 +1,6 @@
+# Personal Notes
+I tried to complete the challenge without making use of libraries such as pandas or numpy for my tasks, and instead took a more vanilla python approach. The only library required is matplotlib, since I have no clue how to generate a bar chart in pure python.
+
 # MAIS 202 Fall 2019 - Application Coding Challenge
 
 [Application](https://docs.google.com/forms/d/e/1FAIpQLSffJrPvMK_wT8g6ALzwEr4jQAn4Sm6a-ZAY8oHmD6_5XFKmCA/viewform)
