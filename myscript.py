@@ -26,12 +26,11 @@ count = Counter()
 for owner in ownerlist:
     avg[owner[1]] += int(loandict[owner[0]])
     count[owner[1]] += 1
-cells = []
+
 for key in avg:
     avg[key] /= count[key]
-    cells.append([])
 
-plt.bar([x for x in range(len(avg))], avg.values(), align='center', color='g')
+plt.bar([x for x in range(len(avg))], avg.values(), align='center')
 plt.xticks([x for x in range(len(avg))], avg.keys())
 plt.title('Average loan amounts for home ownership')
 plt.xlabel('Home ownership')
